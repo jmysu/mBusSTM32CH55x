@@ -13,7 +13,7 @@ With **_Shared_** MCUs in China, the hardware price is quite affordable!<br>
 
 <br>
 ---<br>
-## References<br>
-    - [SDCC](https://sdcc.sourceforge.net/) SDCC - Small Device C Compiler. <br>
-    - [Bitlash](http://bitlash.net/) 
+ ## References<br>
+- [SDCC](https://sdcc.sourceforge.net/) SDCC - Small Device C Compiler. <br>
+- [Bitlash](http://bitlash.net/) 
   
