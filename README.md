@@ -18,5 +18,5 @@ With **_Shared_** MCUs in China, the hardware price is quite affordable!<br>
 ## References <br>
 
 - [SDCC](https://sdcc.sourceforge.net/) SDCC - Small Device C Compiler. <br>
- 
+- [MCS-51s](https://github.com/SoCXin/MCS-51) 嵌入式应用的单片微型计算机的经典体系结构. <br> 
   
