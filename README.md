@@ -1,5 +1,5 @@
 # mBusSTM32USB
-mBus sockets w/ **8051&Arm-M3**
+mBus sockets w/ **8051&Arm-M3**, work in process!
 
 <img src="pic/mBusSTM32USB_0608.jpg" height=320 width=45%> &nbsp;&nbsp; <img src="pic/mBusSTM32USB_0607.jpg" height=320 width=45%>
 <br>
