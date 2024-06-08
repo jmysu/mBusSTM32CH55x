@@ -8,7 +8,8 @@ Z80 is calling **_lastbuy_** by 0614, what's changed in 50 years!<br>
 <img src="pic/Z80vsGB200.jpg" height=400 >
 
 
-With **_Shared_** MCU, the hardware price is quiet affordable!
+With **_Shared_** MCUs in China, the hardware price is quite affordable!
+有了大陸国内共享MCU，硬件价格实在是贼便宜的!!
 
 <br>
 ---
