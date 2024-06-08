@@ -10,7 +10,7 @@ Z80 is calling **_lastbuy_** by 0614, what's changed in 50 years!<br>
 
 With **_Shared_** MCUs in China, the hardware price is quite affordable!<br>
 有了大陸国内共享MCU，硬件价格实在是贼便宜的!!<br>
-<img src="pic/CH552APM32.jpg" height=400 >
+<img src="pic/LCSC_CH552APM32.jpg" height=400 >
 <br>
 
 
