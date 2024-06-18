@@ -20,3 +20,4 @@ With **_Shared_** MCUs in China, the hardware price is quite affordable!<br>
 - [SDCC](https://sdcc.sourceforge.net/) SDCC - Small Device C Compiler. <br>
 - [MCS-51s](https://github.com/SoCXin/MCS-51) 嵌入式应用的单片微型计算机的经典体系结构. <br> 
 - [Fake pills](https://github.com/keirf/Greaseweazle/wiki/STM32-Fakes) About fake pills. <br>
+- [CH559 baremetal programming](https://kprasadvnsi.com/tags/ch559/) 
