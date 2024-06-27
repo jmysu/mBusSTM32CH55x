@@ -22,3 +22,4 @@ With **_Shared_** MCUs in China, the hardware price is quite affordable!<br>
 - [Fake pills](https://github.com/keirf/Greaseweazle/wiki/STM32-Fakes) About fake pills. <br>
 - [CH559 baremetal programming](https://kprasadvnsi.com/tags/ch559/)
 - [CH559 DOC](https://kprasadvnsi.github.io/CH559_Doc_English/docs/16-usb/) Brief CH559 english document.
+- [CH55xG Pinout](https://oshwlab.com/wagiminator/ch55xg-development-board) CH55xG Dev Board.
