@@ -1,0 +1,38 @@
+[
+    {
+        "command": "C:\\Users\\jimmy\\.platformio\\packages\\toolchain-sdcc@1.40200.0\\bin\\sdcc.exe -o .pio\\build\\CH55x\\src\\cdc_touch.rel -c --std-sdcc11 --opt-code-size --peep-return -mmcs51 -V -DF_CPU=24000000L -DHEAP_SIZE=128 -DPLATFORMIO=60115 -DNAKED_ARCH_MCS51 -Iinclude -Isrc src\\cdc_touch.c",
+        "directory": "D:\\PlatformIO\\WCH\\CH554\\cdcTouch.WCH51",
+        "file": "src\\cdc_touch.c",
+        "output": ".pio\\build\\CH55x\\src\\cdc_touch.rel"
+    },
+    {
+        "command": "C:\\Users\\jimmy\\.platformio\\packages\\toolchain-sdcc@1.40200.0\\bin\\sdcc.exe -o .pio\\build\\CH55x\\src\\src\\delay.rel -c --std-sdcc11 --opt-code-size --peep-return -mmcs51 -V -DF_CPU=24000000L -DHEAP_SIZE=128 -DPLATFORMIO=60115 -DNAKED_ARCH_MCS51 -Iinclude -Isrc src\\src\\delay.c",
+        "directory": "D:\\PlatformIO\\WCH\\CH554\\cdcTouch.WCH51",
+        "file": "src\\src\\delay.c",
+        "output": ".pio\\build\\CH55x\\src\\src\\delay.rel"
+    },
+    {
+        "command": "C:\\Users\\jimmy\\.platformio\\packages\\toolchain-sdcc@1.40200.0\\bin\\sdcc.exe -o .pio\\build\\CH55x\\src\\src\\touchkey.rel -c --std-sdcc11 --opt-code-size --peep-return -mmcs51 -V -DF_CPU=24000000L -DHEAP_SIZE=128 -DPLATFORMIO=60115 -DNAKED_ARCH_MCS51 -Iinclude -Isrc src\\src\\touchkey.c",
+        "directory": "D:\\PlatformIO\\WCH\\CH554\\cdcTouch.WCH51",
+        "file": "src\\src\\touchkey.c",
+        "output": ".pio\\build\\CH55x\\src\\src\\touchkey.rel"
+    },
+    {
+        "command": "C:\\Users\\jimmy\\.platformio\\packages\\toolchain-sdcc@1.40200.0\\bin\\sdcc.exe -o .pio\\build\\CH55x\\src\\src\\usb_cdc.rel -c --std-sdcc11 --opt-code-size --peep-return -mmcs51 -V -DF_CPU=24000000L -DHEAP_SIZE=128 -DPLATFORMIO=60115 -DNAKED_ARCH_MCS51 -Iinclude -Isrc src\\src\\usb_cdc.c",
+        "directory": "D:\\PlatformIO\\WCH\\CH554\\cdcTouch.WCH51",
+        "file": "src\\src\\usb_cdc.c",
+        "output": ".pio\\build\\CH55x\\src\\src\\usb_cdc.rel"
+    },
+    {
+        "command": "C:\\Users\\jimmy\\.platformio\\packages\\toolchain-sdcc@1.40200.0\\bin\\sdcc.exe -o .pio\\build\\CH55x\\src\\src\\usb_descr.rel -c --std-sdcc11 --opt-code-size --peep-return -mmcs51 -V -DF_CPU=24000000L -DHEAP_SIZE=128 -DPLATFORMIO=60115 -DNAKED_ARCH_MCS51 -Iinclude -Isrc src\\src\\usb_descr.c",
+        "directory": "D:\\PlatformIO\\WCH\\CH554\\cdcTouch.WCH51",
+        "file": "src\\src\\usb_descr.c",
+        "output": ".pio\\build\\CH55x\\src\\src\\usb_descr.rel"
+    },
+    {
+        "command": "C:\\Users\\jimmy\\.platformio\\packages\\toolchain-sdcc@1.40200.0\\bin\\sdcc.exe -o .pio\\build\\CH55x\\src\\src\\usb_handler.rel -c --std-sdcc11 --opt-code-size --peep-return -mmcs51 -V -DF_CPU=24000000L -DHEAP_SIZE=128 -DPLATFORMIO=60115 -DNAKED_ARCH_MCS51 -Iinclude -Isrc src\\src\\usb_handler.c",
+        "directory": "D:\\PlatformIO\\WCH\\CH554\\cdcTouch.WCH51",
+        "file": "src\\src\\usb_handler.c",
+        "output": ".pio\\build\\CH55x\\src\\src\\usb_handler.rel"
+    }
+]
