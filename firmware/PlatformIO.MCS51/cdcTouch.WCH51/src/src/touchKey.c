@@ -25,7 +25,7 @@ Input channel as below:
 	
 *******************************************************************************/
 	
-UINT8 	TK_Code[TOUCH_NUM] = {								/* Arrange the input channel */			
+UINT8 	TK_CH[TOUCH_NUM] = {								/* Arrange the input channel */			
 //	0x01, 0x02, 															  /* CH0 CH1 */
 //	0x03, 0x04, 															  /* CH2 CH3 */
 0x02,	0x05, 0x06																  /* CH1 CH4 CH5 */
@@ -44,7 +44,7 @@ UINT8 TK_SelectChannel( UINT8 ch )
 {
 	if ( ch <= TOUCH_NUM )
 	{
-		TKEY_CTRL = ( TKEY_CTRL & 0XF8) | TK_Code[ch];
+		TKEY_CTRL = ( TKEY_CTRL & 0XF8) | TK_CH[ch];
 		return SUCCESS;
 	}
 
@@ -140,7 +140,7 @@ UINT8 TK_Measure( void )
 
 		if ( KeyData < ( Key_FreeBuf[i] - TH_VALUE ) )
 		{
-			Touch_CH |=  1 << ( TK_Code[i] - 1 );
+			Touch_CH |=  1 << ( TK_CH[i] - 1 );
 		}
 		
 //		printf( "ch[%d]=%d\t", (UINT16)(TK_Code[i] - 1), (UINT16)KeyData );

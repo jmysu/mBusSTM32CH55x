@@ -82,7 +82,7 @@ void USB_ISR(void) __interrupt(INT_NO_USB) {
 // Touch Keys
 //**********************************************
 #include "src/touchKey.h"
-extern UINT8 	TK_Code[TOUCH_NUM];
+extern UINT8 	TK_CH[TOUCH_NUM];
 /*******************************************************************************
 * Function Name  : TK_int_ISR
 * Description    : Touch key interrupt routing for touch key scan.
@@ -91,26 +91,22 @@ extern UINT8 	TK_Code[TOUCH_NUM];
 *******************************************************************************/
 void TK_int_ISR( void ) __interrupt(INT_NO_TKEY) 
 {
-	static UINT8 ch = 0;
+	static UINT8 tch = 0;
 	UINT16 KeyData;
 
 	KeyData = TKEY_DAT;
 	
-	if( KeyData < ( Key_FreeBuf[ch] - TH_VALUE ) )
-	{
-		Touch_CH |=  1 << ( TK_Code[ch] - 1 );
-	}
+	if( KeyData < ( Key_FreeBuf[tch] - TH_VALUE ) )	{
+		Touch_CH |=  1 << ( TK_CH[tch] - 1 );
+	  }
 	
-	//printf( "ch[%d]=%d\t", (UINT16)(TK_Code[ch] - 1), (UINT16)KeyData );
+	//printf( "ch[%d]=%d\t", (UINT16)(TK_CH[ch] - 1), (UINT16)KeyData );
 
-	if( ++ch >= TOUCH_NUM )
-	{
+	if( ++tch >= TOUCH_NUM )	{
 		//printf("\n");
-		ch = 0;
-	}	
-	TK_SelectChannel( ch );
-
-
+		tch = 0;
+	  }	
+	TK_SelectChannel( tch );
 }
 // ===================================================================================
 // printf
@@ -142,8 +138,10 @@ void main(void) {
   //ADC_enable();                           // enable ADC
   DLY_ms(1000);
 
+  while (!CDC_ready()) {} //Wait any key...
+  DLY_ms(100);            //need some delay
+  CDC_EP_init();          //reset CDC EP again!!!
 
-  while (!CDC_available()) {} //Wait any key...
   printf("\nStart Touch... CH:543210\n");
   printf(  "========================\n");
   CDC_flush();
@@ -152,12 +150,12 @@ void main(void) {
 	TK_SelectChannel(0);											/* NOTICE: ch is not compatible with the IO actually. */
 	EA = 1;		
 
-  DLY_ms(10);
+  //DLY_ms(10);
   Touch_CH=0;
   // Loop
   while(1) {
     
-    if ( Touch_CH != 0 ){
+    if ( Touch_CH != 0 ) {
 			printf("Touched CH = 0x%02x ", Touch_CH);
       for (int ch=5;ch>=0;ch--) {
         //if (i==2 || i==3) {printf("");continue; }//skip bit2/bit3
@@ -165,6 +163,8 @@ void main(void) {
         }
       printf("\n");
       CDC_flush();
+      DLY_ms(100); //deBounce
+
 			Touch_CH = 0;
 		  }
     DLY_ms(100);
