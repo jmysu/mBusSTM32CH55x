@@ -8,4 +8,7 @@ cdcTouch.WCH51
 <img src="https://github.com/jmysu/mBusSTM32USB/blob/main/pic/CH554CMDs0706.jpg"> <br>
    - The PlatformIO is not passing SDCC LinkerOptionFlags well!:-( <br>
      Right now, the workaround is adding the extra python script in the .ini!!! <br>
-     See issue here: https://github.com/platformio/platform-intel_mcs51/issues/11
+     See issue here: https://github.com/platformio/platform-intel_mcs51/issues/11 <br>
+
+---
+-[CH55x SDK port](https://github.com/Blinkinlabs/ch554_sdcc) <br>
