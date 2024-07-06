@@ -11,4 +11,4 @@ cdcTouch.WCH51
      See issue here: https://github.com/platformio/platform-intel_mcs51/issues/11 <br>
 
 ---
--[CH55x SDK port](https://github.com/Blinkinlabs/ch554_sdcc) <br>
+- [CH55x SDK port](https://github.com/Blinkinlabs/ch554_sdcc) <br>
