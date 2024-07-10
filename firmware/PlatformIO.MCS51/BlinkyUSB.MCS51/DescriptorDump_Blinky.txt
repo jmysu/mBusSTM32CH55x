@@ -1,0 +1,92 @@
+Information for device Blinky (VID=0xFFFF PID=0x001E):
+
+------------------------------
+Connection Information:
+------------------------------
+Device current bus speed: FullSpeed
+Device supports USB 1.1 specification
+Device supports USB 2.0 specification
+Device address: 0x0015
+Current configuration value: 0x01
+Number of open pipes: 1
+
+
+------------------------------
+Device Descriptor:
+------------------------------
+0x12	bLength
+0x01	bDescriptorType
+0x0200	bcdUSB
+0xFF	bDeviceClass      (Vendor specific)
+0x00	bDeviceSubClass   
+0x00	bDeviceProtocol   
+0x20	bMaxPacketSize0   (32 bytes)
+0xFFFF	idVendor
+0x001E	idProduct
+0x0000	bcdDevice
+0x01	iManufacturer   "CH55x"
+0x02	iProduct        "Blinky"
+0x00	iSerialNumber
+0x01	bNumConfigurations
+
+
+-------------------------
+Configuration Descriptor:
+-------------------------
+0x09	bLength
+0x02	bDescriptorType
+0x0019	wTotalLength   (25 bytes)
+0x01	bNumInterfaces
+0x01	bConfigurationValue
+0x00	iConfiguration
+0x80	bmAttributes   (Bus-powered Device)
+0x3C	bMaxPower      (120 mA)
+
+Interface Descriptor:
+------------------------------
+0x09	bLength
+0x04	bDescriptorType
+0x00	bInterfaceNumber
+0x00	bAlternateSetting
+0x01	bNumEndPoints
+0xFF	bInterfaceClass      (Vendor specific)
+0x00	bInterfaceSubClass   
+0x00	bInterfaceProtocol   
+0x00	iInterface
+
+Endpoint Descriptor:
+------------------------------
+0x07	bLength
+0x05	bDescriptorType
+0x01	bEndpointAddress  (OUT endpoint 1)
+0x00	bmAttributes      (Transfer: Control / Synch: None / Usage: Data)
+0x0008	wMaxPacketSize    (8 bytes)
+0x00	bInterval         
+
+Microsoft OS Descriptor:
+------------------------------
+0x0E	bLength
+0x03	bDescriptorType
+Hex dump: 
+0x0E 0x03 0x43 0x00 0x48 0x00 0x35 0x00 0x35 0x00 
+0x78 0x00 0x00 0x00 
+
+
+--------------------------------
+String Descriptor Table
+--------------------------------
+Index  LANGID  String
+0x00   0x0000  0x0409 
+0x01   0x0409  "CH55x"
+0x02   0x0409  "Blinky"
+
+------------------------------
+
+Connection path for device: 
+USB xHCI ????????
+Root Hub
+Blinky (VID=0xFFFF PID=0x001E) Port: 3
+
+Running on: Windows 10 or greater (Build Version 18363)
+
+Brought to you by TDD v2.19.0, Dec  5 2023, 12:08:38
