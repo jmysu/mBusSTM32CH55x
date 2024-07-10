@@ -13,8 +13,8 @@ cdcTouch.WCH51
 
 Blinky USB control project: <br>
 > Set/Read/Toggle LED blink time via USB control transfer, code size 1930 bytes! <br>
-> Use _pyBlinky.py_ to send commands to device! <br>
-<img src="https://github.com/jmysu/mBusSTM32USB/blob/main/pic/BlinkyUSBcapture.jpg"> <br>
+  Use _pyBlinky.py_ to send commands to device! <br>
+  <img src="https://github.com/jmysu/mBusSTM32USB/blob/main/pic/BlinkyUSBcapture.jpg"> <br>
      <br>
 
    
