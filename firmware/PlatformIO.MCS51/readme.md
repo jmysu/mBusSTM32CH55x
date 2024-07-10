@@ -9,9 +9,11 @@ cdcTouch.WCH51
    - The PlatformIO is not passing SDCC LinkerOptionFlags well!:-( <br>
      Right now, the workaround is adding the extra python script in the .ini!!! <br>
      See issue here: https://github.com/platformio/platform-intel_mcs51/issues/11 <br>
-     
+     <br>
+
+  Blinky USB control project! <br>
 <img src="https://github.com/jmysu/mBusSTM32USB/blob/main/pic/BlinkyUSBcapture.jpg"> <br>
-   - Blinky USB control project! <br>
+     <br>
 
    
 ---
