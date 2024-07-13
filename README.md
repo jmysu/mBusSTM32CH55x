@@ -5,7 +5,7 @@ mBus sockets w/ **8051&Arm-M3**, work in process!
 <br>
 <br>
 Z80 ~~is calling~~ called **_LastBuy_** by 06/14-2024, what's changed in 50 years!<br>
-<img src="pic/Z80vsGB200.jpg" height=400 >
+<img src="pic/Z80vsGB200.jpg" height=400 ><img src="pic/Z80-RIP2024.jpg" height=400 >
 
 
 With **_Shared_** MCUs in China, the hardware price is quite affordable!<br>
