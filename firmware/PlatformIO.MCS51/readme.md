@@ -10,7 +10,9 @@ CH55x Projects
      Right now, the workaround is adding the extra python script in the .ini!!! <br>
      See issue here: https://github.com/platformio/platform-intel_mcs51/issues/11 <br>
      <br>
-
+   CH55x HID monitor w/ CDC <br>
+<img src="https://github.com/jmysu/mBusSTM32USB/blob/main/pic/cdcHID0716.jpg"> <br>
+<br>
 
 Blinky USB control project: <br>
 > Set/Read/Toggle LED blink time via USB control transfer, code size 1930 bytes! <br>
