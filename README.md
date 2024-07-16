@@ -18,7 +18,7 @@ With **_Shared_** MCUs in China, the hardware price is quite affordable!<br>
 - Update circuit layout in hardware. <br>
 - Add more CH55x USB projects (USB Control/Interrupt/Bulk transfer w/ PlatformIO-WCH51) in firmware. <br>
   Also attached the pyUSB Host test jig for individual testing in each folder (NEED _libUSB_ as USB driver). <br>
-  Finally, add the HID+CDC project that monitoring HID traffics and feedback w/ USB-CDC.<br>
+  Finally, add the HID+CDC project that monitoring HID traffics with USB-CDC serial.<br>
   
   <img src="pic/mBusSTM32CH55x_0715Top.jpg" width=40% >  <img src="pic/mBusSTM32Ch55x_0715Bottom.jpg" width=40% > <br>
 
