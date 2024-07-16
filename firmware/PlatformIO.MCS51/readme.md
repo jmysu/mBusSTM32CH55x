@@ -19,7 +19,7 @@ Blinky USB control project: <br>
      <br>
 
 CH55x HID monitor w/ CDC <br>
-<img src="https://github.com/jmysu/mBusSTM32USB/blob/main/pic/cdcHID0716.jpg" width=60%> <br>
+<img src="https://github.com/jmysu/mBusSTM32USB/blob/main/pic/cdcHID0716.jpg" width=80%> <br>
 <br> 
 
 ---
