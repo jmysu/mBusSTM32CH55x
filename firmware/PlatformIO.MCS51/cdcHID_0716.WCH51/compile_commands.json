@@ -1,0 +1,44 @@
+[
+    {
+        "command": "C:\\Users\\jimmy\\.platformio\\packages\\toolchain-sdcc@1.40200.0\\bin\\sdcc.exe -o .pio\\build\\CH55x\\src\\_cdcHID.rel -c --std-sdcc11 --opt-code-size --peep-return -mmcs51 -DF_CPU=24000000L -DHEAP_SIZE=128 -DPLATFORMIO=60115 -DNAKED_ARCH_MCS51 -Iinclude -Isrc src\\_cdcHID.c",
+        "directory": "D:\\PlatformIO\\WCH\\CH554\\cdcHID.WCH51",
+        "file": "src\\_cdcHID.c",
+        "output": ".pio\\build\\CH55x\\src\\_cdcHID.rel"
+    },
+    {
+        "command": "C:\\Users\\jimmy\\.platformio\\packages\\toolchain-sdcc@1.40200.0\\bin\\sdcc.exe -o .pio\\build\\CH55x\\src\\src\\delay.rel -c --std-sdcc11 --opt-code-size --peep-return -mmcs51 -DF_CPU=24000000L -DHEAP_SIZE=128 -DPLATFORMIO=60115 -DNAKED_ARCH_MCS51 -Iinclude -Isrc src\\src\\delay.c",
+        "directory": "D:\\PlatformIO\\WCH\\CH554\\cdcHID.WCH51",
+        "file": "src\\src\\delay.c",
+        "output": ".pio\\build\\CH55x\\src\\src\\delay.rel"
+    },
+    {
+        "command": "C:\\Users\\jimmy\\.platformio\\packages\\toolchain-sdcc@1.40200.0\\bin\\sdcc.exe -o .pio\\build\\CH55x\\src\\src\\usb_cdc.rel -c --std-sdcc11 --opt-code-size --peep-return -mmcs51 -DF_CPU=24000000L -DHEAP_SIZE=128 -DPLATFORMIO=60115 -DNAKED_ARCH_MCS51 -Iinclude -Isrc src\\src\\usb_cdc.c",
+        "directory": "D:\\PlatformIO\\WCH\\CH554\\cdcHID.WCH51",
+        "file": "src\\src\\usb_cdc.c",
+        "output": ".pio\\build\\CH55x\\src\\src\\usb_cdc.rel"
+    },
+    {
+        "command": "C:\\Users\\jimmy\\.platformio\\packages\\toolchain-sdcc@1.40200.0\\bin\\sdcc.exe -o .pio\\build\\CH55x\\src\\src\\usb_descr.rel -c --std-sdcc11 --opt-code-size --peep-return -mmcs51 -DF_CPU=24000000L -DHEAP_SIZE=128 -DPLATFORMIO=60115 -DNAKED_ARCH_MCS51 -Iinclude -Isrc src\\src\\usb_descr.c",
+        "directory": "D:\\PlatformIO\\WCH\\CH554\\cdcHID.WCH51",
+        "file": "src\\src\\usb_descr.c",
+        "output": ".pio\\build\\CH55x\\src\\src\\usb_descr.rel"
+    },
+    {
+        "command": "C:\\Users\\jimmy\\.platformio\\packages\\toolchain-sdcc@1.40200.0\\bin\\sdcc.exe -o .pio\\build\\CH55x\\src\\src\\usb_handler.rel -c --std-sdcc11 --opt-code-size --peep-return -mmcs51 -DF_CPU=24000000L -DHEAP_SIZE=128 -DPLATFORMIO=60115 -DNAKED_ARCH_MCS51 -Iinclude -Isrc src\\src\\usb_handler.c",
+        "directory": "D:\\PlatformIO\\WCH\\CH554\\cdcHID.WCH51",
+        "file": "src\\src\\usb_handler.c",
+        "output": ".pio\\build\\CH55x\\src\\src\\usb_handler.rel"
+    },
+    {
+        "command": "C:\\Users\\jimmy\\.platformio\\packages\\toolchain-sdcc@1.40200.0\\bin\\sdcc.exe -o .pio\\build\\CH55x\\src\\src\\usb_hid.rel -c --std-sdcc11 --opt-code-size --peep-return -mmcs51 -DF_CPU=24000000L -DHEAP_SIZE=128 -DPLATFORMIO=60115 -DNAKED_ARCH_MCS51 -Iinclude -Isrc src\\src\\usb_hid.c",
+        "directory": "D:\\PlatformIO\\WCH\\CH554\\cdcHID.WCH51",
+        "file": "src\\src\\usb_hid.c",
+        "output": ".pio\\build\\CH55x\\src\\src\\usb_hid.rel"
+    },
+    {
+        "command": "C:\\Users\\jimmy\\.platformio\\packages\\toolchain-sdcc@1.40200.0\\bin\\sdcc.exe -o .pio\\build\\CH55x\\src\\src\\usb_hid_data.rel -c --std-sdcc11 --opt-code-size --peep-return -mmcs51 -DF_CPU=24000000L -DHEAP_SIZE=128 -DPLATFORMIO=60115 -DNAKED_ARCH_MCS51 -Iinclude -Isrc src\\src\\usb_hid_data.c",
+        "directory": "D:\\PlatformIO\\WCH\\CH554\\cdcHID.WCH51",
+        "file": "src\\src\\usb_hid_data.c",
+        "output": ".pio\\build\\CH55x\\src\\src\\usb_hid_data.rel"
+    }
+]
