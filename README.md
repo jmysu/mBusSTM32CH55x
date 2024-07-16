@@ -14,9 +14,11 @@ With **_Shared_** MCUs in China, the hardware price is quite affordable!<br>
 <br>
 <br>
 
-## 0715 Updates
+## 0715 Updates:
 ---
-
+- Update circuit layout
+- Add more CH554 USB projects
+  <img src="pic/mBusSTM32CH55x_0715Top.jpg" width=40% >
 ---
 
 
