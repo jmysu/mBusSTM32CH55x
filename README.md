@@ -17,6 +17,8 @@ With **_Shared_** MCUs in China, the hardware price is quite affordable!<br>
 ## 0715 Updates:
 - Update circuit layout in hardware. <br>
 - Add more CH55x USB projects (USB Control/Interrupt/Bulk transfer w/ PlatformIO-WCH51) in firmware. <br>
+  Also attached the pyUSB Host test jig for individual testing in each folder (NEED _libUSB_ as USB driver). <br>
+  
   <img src="pic/mBusSTM32CH55x_0715Top.jpg" width=40% >  <img src="pic/mBusSTM32Ch55x_0715Bottom.jpg" width=40% > <br>
 
   <br>
