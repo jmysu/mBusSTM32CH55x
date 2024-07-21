@@ -14,7 +14,7 @@ static const char kString03SerialNumber[] = "CH559";
 static int offset = 6;
 static char kHello[] = "Hello";
 
-static uint8_t get_string_length(uint8_t no) {
+static uint8_t get_string_length(uint8_t no) __reentrant{
   switch (no) {
     case 1:
       return sizeof(kString01Manufacturer) - 1;
@@ -25,7 +25,7 @@ static uint8_t get_string_length(uint8_t no) {
   }
   return 0;
 }
-static const char* get_string(uint8_t no) {
+static const char* get_string(uint8_t no) __reentrant{
   switch (no) {
     case 1:
       return kString01Manufacturer;
@@ -37,7 +37,7 @@ static const char* get_string(uint8_t no) {
   return 0;
 }
 
-void recv(const uint8_t* buffer, uint8_t len) {
+void recv(const uint8_t* buffer, uint8_t len) __reentrant{
   // Echo back
   Serial.printf("recv: %x, %d\n", *buffer, len);
   cdc_device_send(buffer, len);
