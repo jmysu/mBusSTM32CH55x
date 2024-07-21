@@ -1,0 +1,39 @@
+/*
+   ChLib GPIO test
+*/
+
+#include "ch559.h"
+#include "gpio.h"
+
+#undef F_CPU
+#define F_CPU 12000000
+#warning "CPU 12MHz"
+#pragma disable_warning 110
+
+
+void jmpBootLoader(void) {
+ //= (void*)0xf400;
+  __asm
+    ljmp 0xF400;
+  __endasm;
+  }
+
+void main(void)
+{
+   initialize();
+
+   pinMode(1, 4, OUTPUT);
+   pinMode(1, 5, OUTPUT);
+   pinMode(4, 6, INPUT_PULLUP);
+
+   while (1)  {
+      digitalWrite(1,4,!digitalRead(1,4));
+      digitalWrite(1,5,!digitalRead(1,4));
+      delay(100);
+
+      if (!digitalRead(4,6)) jmpBootLoader();
+      }
+   
+
+
+}
